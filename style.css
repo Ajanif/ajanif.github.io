@@ -1,1 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+}
+
+/* MAIN LAYOUT */
+.container {
+    display: flex;
+}
+
+/* LEFT SIDEBAR */
+.sidebar {
+    width: 35%;
+    height: 100vh;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    padding: 60px 40px;
+
+    background-color: #f7f7f7;
+
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.profile-pic {
+    width: 220px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.bio {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+/* RIGHT CONTENT */
+.content {
+    margin-left: 35%;
+    width: 65%;
+
+    padding: 60px;
+}
+
+.project {
+    margin-bottom: 80px;
+}
+
+.project h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.project p {
+    font-size: 18px;
+    line-height: 1.7;
+}
