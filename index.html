@@ -1,50 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Ajanif's Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            text-align: center;
-            padding: 50px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        p {
-            color: #666;
-            font-size: 18px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 12px 20px;
-            background-color: #0077ff;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .button:hover {
-            background-color: #005fd1;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Welcome to My Website</h1>
+    <div class="container">
 
-    <p>I created this website for free using GitHub Pages.</p>
+        <!-- LEFT SIDEBAR -->
+        <aside class="sidebar">
 
-    <a class="button" href="https://github.com">
-        Visit GitHub
-    </a>
+            <h1>Your Full Name</h1>
+
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+
+            <p class="bio">
+                Economics graduate interested in economic consulting,
+                policy analysis, data analysis, and research.
+            </p>
+
+            <div class="links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">CV</a>
+            </div>
+
+        </aside>
+
+
+        <!-- RIGHT CONTENT -->
+        <main class="content">
+
+            <section class="project">
+                <h2>Research Project Title</h2>
+
+                <p>
+                    Short description of the project.
+                    Explain the research question, methods,
+                    and findings.
+                </p>
+            </section>
+
+            <section class="project">
+                <h2>Another Project</h2>
+
+                <p>
+                    Add as many projects as you want.
+                </p>
+            </section>
+
+            <section class="project">
+                <h2>Data Analysis Project</h2>
+
+                <p>
+                    Example:
+                    Difference-in-differences analysis using panel data.
+                </p>
+            </section>
+
+        </main>
+
+    </div>
 
 </body>
+
 </html>
