@@ -1,10 +1,11 @@
-/* BASE */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* BASE */
 body {
     font-family: 'Inter', sans-serif;
     background: #ffffff;
@@ -12,97 +13,93 @@ body {
     line-height: 1.6;
 }
 
-/* PAGE GRID (KEY UPGRADE) */
-.page {
-    display: grid;
-    grid-template-columns: 340px 1fr;
-    min-height: 100vh;
+/* CENTERED CONTAINER (KEY FEATURE) */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 40px;
 }
 
-/* LEFT SIDE */
-.left {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-
-    padding: 70px 50px;
-
-    border-right: 1px solid #eee;
+/* HEADER */
+.header {
+    text-align: center;
+    margin-bottom: 80px;
 }
 
-h1 {
-    font-size: 24px;
+/* NAME */
+.header h1 {
+    font-size: 32px;
     font-weight: 600;
-    margin-bottom: 6px;
     letter-spacing: -0.02em;
+    margin-bottom: 20px;
 }
 
-.role {
-    font-size: 13px;
-    color: #777;
-    margin-bottom: 25px;
-}
-
-.avatar {
-    width: 160px;
+/* PROFILE IMAGE */
+.profile {
+    width: 140px;
     border-radius: 12px;
     margin-bottom: 20px;
 }
 
+/* BIO */
 .bio {
-    font-size: 14px;
+    font-size: 15px;
     color: #444;
-    margin-bottom: 25px;
+    max-width: 650px;
+    margin: 0 auto 25px auto;
 }
 
-/* NAV LINKS */
-.nav a {
-    display: block;
-    margin-bottom: 8px;
+/* LINKS */
+.links a {
+    margin: 0 10px;
     font-size: 14px;
     color: #1a73e8;
     text-decoration: none;
 }
 
-.nav a:hover {
+.links a:hover {
     text-decoration: underline;
-}
-
-/* RIGHT SIDE */
-.right {
-    padding: 80px 100px;
-    max-width: 900px;
 }
 
 /* SECTION TITLE */
 .section-title {
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 0.12em;
     color: #999;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-/* POSTS */
-.post {
-    margin-bottom: 60px;
+/* PROJECTS */
+.project {
+    margin-bottom: 70px;
 }
 
-.post h2 {
+/* PROJECT TITLE */
+.project h3 {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
-    letter-spacing: -0.01em;
+    margin-bottom: 12px;
+    text-align: center;
 }
 
-.post p {
+/* PROJECT TEXT */
+.project p {
     font-size: 15px;
     color: #333;
-    line-height: 1.7;
+    line-height: 1.75;
+    text-align: justify;
+}
+
+/* SUBTLE DIVIDER */
+.project {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
 }
 
 /* HOVER EFFECT */
-.post:hover h2 {
+.project:hover h3 {
     color: #1a73e8;
     transition: 0.2s ease;
 }
