@@ -1,119 +1,108 @@
-/* RESET */
+/* BASE */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BASE */
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #fafafa;
-    color: #1a1a1a;
+    background: #ffffff;
+    color: #111;
     line-height: 1.6;
 }
 
-/* MAIN LAYOUT */
-.container {
-    display: flex;
+/* PAGE GRID (KEY UPGRADE) */
+.page {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    min-height: 100vh;
 }
 
-/* LEFT SIDEBAR */
-.sidebar {
-    width: 320px;
+/* LEFT SIDE */
+.left {
+    position: sticky;
+    top: 0;
     height: 100vh;
 
-    position: fixed;
-    left: 0;
-    top: 0;
+    padding: 70px 50px;
 
-    padding: 60px 50px;
-
-    background-color: #ffffff;
-
-    border-right: 1px solid #eaeaea;
+    border-right: 1px solid #eee;
 }
 
-/* NAME */
-.sidebar h1 {
-    font-size: 26px;
+h1 {
+    font-size: 24px;
     font-weight: 600;
-    letter-spacing: -0.02em;
     margin-bottom: 6px;
+    letter-spacing: -0.02em;
 }
 
-/* ROLE UNDER NAME */
 .role {
     font-size: 13px;
     color: #777;
     margin-bottom: 25px;
 }
 
-/* PROFILE IMAGE */
-.profile-pic {
-    width: 170px;
-    border-radius: 10px;
-    margin-bottom: 25px;
-    filter: grayscale(5%);
+.avatar {
+    width: 160px;
+    border-radius: 12px;
+    margin-bottom: 20px;
 }
 
-/* BIO */
 .bio {
     font-size: 14px;
-    line-height: 1.6;
     color: #444;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
-/* LINKS */
-.links a {
+/* NAV LINKS */
+.nav a {
     display: block;
     margin-bottom: 8px;
-
+    font-size: 14px;
     color: #1a73e8;
     text-decoration: none;
-
-    font-size: 14px;
 }
 
-.links a:hover {
+.nav a:hover {
     text-decoration: underline;
 }
 
-/* RIGHT CONTENT */
-.content {
-    margin-left: 320px;
-    padding: 60px 80px;
-
+/* RIGHT SIDE */
+.right {
+    padding: 80px 100px;
     max-width: 900px;
 }
 
-/* PROJECT BLOCK */
-.project {
-    margin-bottom: 50px;
-    padding-bottom: 30px;
-
-    border-bottom: 1px solid #eeeeee;
+/* SECTION TITLE */
+.section-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #999;
+    margin-bottom: 40px;
 }
 
-/* PROJECT TITLE */
-.project h2 {
+/* POSTS */
+.post {
+    margin-bottom: 60px;
+}
+
+.post h2 {
     font-size: 20px;
     font-weight: 600;
-
     margin-bottom: 10px;
     letter-spacing: -0.01em;
 }
 
-/* PROJECT TEXT */
-.project p {
+.post p {
     font-size: 15px;
     color: #333;
     line-height: 1.7;
 }
 
-/* SUBTLE HOVER EFFECT (optional polish) */
-.project:hover h2 {
+/* HOVER EFFECT */
+.post:hover h2 {
     color: #1a73e8;
     transition: 0.2s ease;
 }
