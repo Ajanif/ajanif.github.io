@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Ajanif</title>
 
-    <!-- Modern font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
@@ -14,61 +13,66 @@
 
 <body>
 
-    <div class="container">
+<div class="page">
 
-        <!-- LEFT SIDEBAR -->
-        <aside class="sidebar">
+    <!-- LEFT COLUMN -->
+    <aside class="left">
+
+        <div class="profile">
 
             <h1>Mohamed Ajanif</h1>
 
-            <p class="role">Economics · Data · Research</p>
+            <p class="role">Economics · Data · Policy</p>
 
-            <img src="profile.jpeg" alt="Profile Picture" class="profile-pic">
+            <img src="profile.jpeg" class="avatar">
 
             <p class="bio">
-                Economics graduate interested in economic consulting,
-                policy analysis, econometrics, and data-driven research.
+                Economics graduate focused on economic consulting,
+                econometrics, and applied data analysis.
             </p>
 
-            <div class="links">
+            <div class="nav">
                 <a href="#">LinkedIn</a>
                 <a href="#">GitHub</a>
-                <a href="#">CV (PDF)</a>
+                <a href="#">CV</a>
             </div>
 
-        </aside>
+        </div>
+
+    </aside>
 
 
-        <!-- RIGHT CONTENT -->
-        <main class="content">
+    <!-- RIGHT COLUMN -->
+    <main class="right">
 
-            <section class="project">
-                <h2>Project Title One</h2>
-                <p>
-                    Brief description of your research question, methodology,
-                    and key findings. Keep it concise and analytical.
-                </p>
-            </section>
+        <div class="section-title">Selected Work</div>
 
-            <section class="project">
-                <h2>Project Title Two</h2>
-                <p>
-                    Example: Causal impact evaluation using difference-in-differences
-                    with panel data from European labour markets.
-                </p>
-            </section>
+        <article class="post">
+            <h2>Housing Market Inequality Analysis</h2>
+            <p>
+                Applied regression analysis to study regional housing price disparities
+                using panel data across EU cities.
+            </p>
+        </article>
 
-            <section class="project">
-                <h2>Project Title Three</h2>
-                <p>
-                    Example: Data analysis project using Python and regression modelling
-                    to study housing price determinants.
-                </p>
-            </section>
+        <article class="post">
+            <h2>Labour Market Policy Evaluation</h2>
+            <p>
+                Difference-in-differences estimation of policy impact on employment rates
+                using administrative microdata.
+            </p>
+        </article>
 
-        </main>
+        <article class="post">
+            <h2>Inflation Dynamics in Europe</h2>
+            <p>
+                Time-series analysis of CPI components and inflation persistence using ARIMA models.
+            </p>
+        </article>
 
-    </div>
+    </main>
+
+</div>
 
 </body>
 
