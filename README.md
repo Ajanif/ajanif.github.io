@@ -1,1 +1,0 @@
-# ajanif.github.io
