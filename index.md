@@ -1,4 +1,4 @@
-## Selected projects in applied economics, data analysis and public policy
+## Selected Projects in Applied Economics
 
 ---
 
