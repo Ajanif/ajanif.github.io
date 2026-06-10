@@ -1,4 +1,4 @@
-## Selected projects in data science, machine learning and NLP
+## Selected projects in applied economics, data analysis and public policy
 
 ---
 
@@ -11,4 +11,4 @@ Hate speech detection is the automated task of determining whether a piece of te
 [View code on Colab](https://colab.research.google.com/drive/1d_q0vUpgwmbN7imUcdsbuDwJ61OuBjvO?usp=sharing)
 
 ---
- -->
+
