@@ -7,6 +7,13 @@
     <title>Matt's Portfolio</title>
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      /* Hides the default theme footer text */
+      header p.view small {
+        display: none !important;
+      }
+    </style>
+  </head>
     </head>
   <body>
     <div class="wrapper">
