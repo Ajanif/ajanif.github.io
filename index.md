@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## Selected Projects in Applied Economics
 
 ---
