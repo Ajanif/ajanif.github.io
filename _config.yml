@@ -1,6 +1,6 @@
 title: Mohamed Ajanif # your name (or website title) here
 logo: "profile.jpg" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
+description: >
   <br>
   <strong>Welcome to my portfolio!</strong>
   <br><br>
@@ -11,7 +11,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/ajanif/">View my LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
-show_downloads: false     # ← Add this line
+show_downloads: false     # ← This ensures download buttons are off
+github: [is_project_page: false] # ← Add this to hide the automatic GitHub profile link
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
 colors:
