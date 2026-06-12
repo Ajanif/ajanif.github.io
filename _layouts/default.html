@@ -8,13 +8,21 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     
-    <style>
+   <style>
       /* Fixes the sidebar cutting off on standard screens */
       @media screen and (min-width: 640px) {
         .wrapper header {
           max-height: 90vh; /* Keeps the sidebar within the screen height */
-          overflow-y: auto;  /* Adds a subtle scrollbar if the text is too long */
+          overflow-y: auto;  /* Adds the scrollbar */
           padding-bottom: 20px;
+          
+          /* The Magic Trick: Flip the container to force scrollbar to the far left */
+          direction: rtl; 
+        }
+        
+        /* Flip everything inside the header back to normal so text isn't reversed */
+        .wrapper header > * {
+          direction: ltr;
         }
       }
       
