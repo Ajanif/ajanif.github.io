@@ -7,13 +7,23 @@
     <title>Mohamed's Portfolio</title>
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    
     <style>
-      /* Hides the default theme footer text */
-      header p.view small {
-        display: none !important;
+      /* Fixes the sidebar cutting off on standard screens */
+      @media screen and (min-width: 640px) {
+        .wrapper header {
+          max-height: 90vh; /* Keeps the sidebar within the screen height */
+          overflow-y: auto;  /* Adds a subtle scrollbar if the text is too long */
+          padding-bottom: 20px;
+        }
+      }
+      
+      /* Slightly reduces the paragraph breaks in the sidebar for better fit */
+      header p {
+        margin-bottom: 15px !important;
       }
     </style>
-    </head>
+  </head>
   <body>
     <div class="wrapper">
       <header>
