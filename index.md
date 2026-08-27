@@ -13,7 +13,9 @@ Developing a structural merger simulation of the US airline industry using real-
 
 ### Queensland’s 50-Cent Fare Policy and Air Pollution
 
+<p style="text-align: justify;">
 This project evaluates whether subsidising public transport reduces urban air pollution. Using a difference-in-differences approach with station-level data from Brisbane and Adelaide, the analysis finds no robust evidence of a reduction in PM2.5 concentrations in the first year after implementation.
+</p>
 
 **[Access Full Report (PDF)](Queensland_50cent_Fare_Policy_Report.pdf)**
 
