@@ -4,6 +4,11 @@ layout: default
 ## Selected Projects in Applied Economics
 
 ---
+### Structural Airline Merger Simulation (IN PROGRESS)
+
+Developing a structural merger simulation of the US airline industry using real-world market data. I am planning to estimate discrete-choice demand models (Logit, Nested Logit, and potentially BLP), recover marginal costs from firms’ pricing decisions, and simulate how a merger would affect equilibrium prices and competition across overlapping routes.
+
+---
 
 ### Queensland’s 50-Cent Fare Policy and Air Pollution
 
